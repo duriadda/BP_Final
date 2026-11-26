@@ -1,0 +1,22 @@
+# 의존성·빌드 결과
+node_modules/
+dist/
+coverage/
+
+# 환경 변수 (Firebase 설정 값은 .env.local에만 둔다)
+.env
+.env.local
+.env.*.local
+
+# Firebase 에뮬레이터·디버그 로그
+*-debug.log
+.firebase/
+
+# 에디터·OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# 과제 안내문 (저장소에 포함하지 않음)
+Term_Project_안내문.pdf
